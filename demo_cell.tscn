@@ -1,0 +1,3 @@
+[gd_scene format=3 uid="uid://cgg0lhja5v1l5"]
+
+[node name="DemoCell" type="Label"]
