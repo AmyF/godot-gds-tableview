@@ -1,7 +1,9 @@
 # godot-gds-tableview
 iOS API-style table view component
 
-简单的UITableView风格滚动列表组件，支持单元格复用和动态行高
+简单的UITableView API风格滚动列表组件，支持单元格复用和动态行高
+
+![Demo Screenshot](Screenshot.png) 
 
 ---
 
