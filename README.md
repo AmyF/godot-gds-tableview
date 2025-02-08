@@ -31,8 +31,8 @@ func height_for_row_at(tableView, index):
 
 func cell_for_row_at(tableView, index):
     var cell = tableView.dequeue_reusable_cell("Cell") as Label
-	cell.text = "Item %d" % index
-	return cell
+    cell.text = "Item %d" % index
+    return cell
 
 ```
 
@@ -64,7 +64,7 @@ func _ready():
 
 
 func on_table_View_reloaded(tableView: TableView):
-	print("%s reloaded" % tableView.name)
+    print("%s reloaded" % tableView.name)
 
 
 func number_of_rows(tableView: TableView) -> int:
